@@ -1,0 +1,14 @@
+spring:
+    profiles:
+        active:
+            - dev
+        include: 
+            - common
+logging:
+  file: logs/elsevier_test_dev.log
+  pattern:
+    console: "%d %-5level %logger : %msg%n"
+    file: "%d %-5level [%thread] %logger : %msg%n"
+  level:
+    ROOT: DEBUG
+    com.elsevier.test : DEBUG

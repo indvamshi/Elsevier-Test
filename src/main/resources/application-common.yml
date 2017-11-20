@@ -1,0 +1,8 @@
+spring:
+ jersey:
+   applicationPath: /elsevier
+info:
+    app:
+        name: FileSearch Application.
+        description: Searching for exact text in files. The functionality is implemented using Spring Boot + Rest API + Cucumber
+        version: 'v1'

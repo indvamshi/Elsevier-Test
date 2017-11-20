@@ -1,0 +1,3 @@
+API used to access for searching for a text is
+
+http://localhost:8080/elsevier/v1/search?text=your own text
